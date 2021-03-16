@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body{
+    background-color: #bed4df;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding-left : 15px;
+    overflow: hidden;
+    background-color: #658a9b;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Ranchers';
+}
+
+li a:hover {
+      background-color:  #31708d;
+}
+
+p{  
+    font-family: sans-serif;
+    font-size: large;
+    color: rgb(15, 35, 71);
+    background-color: #adc9d6;
+    
+    padding-left: 50px;
+    margin: 20px 200px;
+    grid-column-start: 2;
+    grid-column-end: 2
+}
+
+.tekstcontainer{
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+}
+
+.plaatjescontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+img{
+    padding: 25px 25px;
+    width: 400px;
+    height: 400px;
+}
+
+.video{
+    width: 400px;
+    height: 400px;
+    padding: 25px 25px;
+}
+
+.upload{
+    background-color: #adc9d6;
+    margin: 0px 80px;
+    
+}
+
+.contactcontainer{
+    background-color:  #adc9d6;   
+}
+
+.knopReset{
+    width: 200px;
+    height: 50px;
+}
+
+.knopSend{
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-right: 50px;
+}
+
+@media (min-width: 1150px){
+p{
+    font-size:x-large;
+ }
+
+.plaatjes{
+    height: 500px;
+    width: 500px; 
+ }
+
+.video{
+    width: 500px;
+    height: 500px;
+ }
+}
+
+@media (min-width: 1530px){
+p{
+    font-size: xx-large;
+ }
+
+.plaatjes{
+    height: 700px;
+    width: 700px;
+ }
+
+.video{
+    width: 700px;
+    height: 700px;
+ }
+}

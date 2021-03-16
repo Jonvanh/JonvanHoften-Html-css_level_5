@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+
+<nav>
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="groente.html">Groente</a></li>
+        <li><a href="fruit.html">Fruit</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<body>
+
+    <form name="Upload" method="POST" data-netlify="true">
+        <hr>
+        <br>
+
+        <p class="upload">
+            <br>
+            <label>Upload hier je eigen leuke plaatje of video van groente of fruit in verrassende vorm:
+                <input type="file" id="bestand" name="bestand">
+            </label>
+        </p>
+
+        <p class="upload">
+            <label>of plaats hier de Url:
+                <input type="url" id="UrlVanPlaatjeGebruiker" name="UrlVanPlaatjeGebruiker">
+            </label>
+
+            <br>
+            <br>
+        </p>
+
+        <p class="upload">
+            <button class="knopReset" type="reset">reset</button>
+            <button class="knopSend" type="submit">Send</button>
+            <br><br>
+        </p>
+
+        <br>
+    </form>
+
+    <div class="plaatjescontainer">
+        <img class="plaatjes" src="Fruit Meloen.jpg">
+
+        <embed class="video" src="https://youtu.be/x-7aFX0VKUM" />
+    </div>
+
+    <hr>
+    <br>
+
+    <div class="contactcontainer">
+        <form name="contact" method="POST" data-netlify="true">
+
+
+            <br>
+            <br>
+
+            <p>Leuk dat je meer te weten wilt komen over groente en fruit in verrassende vorm!</p>
+            <p>Vul onderstaand formulier in en dan nemen wij spoedig contact met je op.</p>
+
+            <br>
+
+            <p>
+                <label>Naam: <input type="text" name="name" /></label>
+            </p>
+
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="telefoon" /></label>
+            </p>
+
+            <p>
+                <label>Geboortedatum: <input type="date" name="geboortedatum" /></label>
+            </p>
+
+            <p>
+                <label>Geslacht: <br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="man">Man</label><br>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="vrouw">Vrouw</label><br>
+                    <input type="radio" id="undef" name="gender" value="undef">
+                    <label for="undef">Zeg ik liever niet</label><br>
+                </label>
+            </p>
+
+            <br>
+            <br>
+
+            <p>
+                <label>Favoriete Groente: <br>
+                    <input type="checkbox" id="Avocado" name="favoVegAvocado" value="Avocado">
+                    <label for="vehicle1"> Avocado</label><br>
+                    <input type="checkbox" id="tomaat" name="favoVegTomaat" value="Tomaat">
+                    <label for="vehicle2"> Tomaat</label><br>
+                    <input type="checkbox" id="Ui" name="favoVegUi" value="Ui">
+                    <label for="vehicle3"> Ui</label><br>
+                    <input type="checkbox" id="Wortel" name="favoVegWortel" value="Wortel">
+                    <label for="vehicle4"> Wortel</label><br>
+
+                    <input type="checkbox" id="GrAnders" name="favoVegAnders" value="Anders">
+                    <label for="vehicle8"> Anders: <input type="text" name="favoVegAnders" /></label><br>
+                </label>
+            </p>
+
+            <p>
+                <label>Favoriete Fruit: <br>
+                    <input type="checkbox" id="Appel" name="favoFrAppel" value="Appel">
+                    <label for="vehicle5"> Appel</label><br>
+                    <input type="checkbox" id="Sinaasappel" name="favoFrSinaasappel" value="Sinaasappel">
+                    <label for="vehicle6"> Sinaasappel</label><br>
+                    <input type="checkbox" id="Kiwi" name="favoFrKiwi" value="Kiwi">
+                    <label for="vehicle7"> Kiwi</label><br>
+                    <input type="checkbox" id="Banaan" name="favoFrBanaan" value="Banaan">
+                    <label for="vehicle8"> Banaan</label><br>
+
+                    <input type="checkbox" id="FrAnders" name="favoFrAnders" value="Anders">
+                    <label for="vehicle8"> Anders: <input type="text" name="favoFrAnders" /></label><br>
+                </label>
+            </p>
+
+            <br>
+
+            <p>
+                <label>Stel hier je vraag en/of opmerking: <br> <textarea rows="10" cols="100"
+                        name="message"></textarea></label>
+            </p>
+
+            <br>
+            <br>
+
+            <p>
+                <button class="knopReset" type="reset">reset</button>
+                <button class="knopSend" type="submit">Send</button>
+            </p>
+
+            <br>
+
+        </form>
+
+    </div>
+</body>
+
+
+<footer>
+    <p>
+        <hr>Copyright 2021
+    </p>
+</footer>
+
+
+</html>
